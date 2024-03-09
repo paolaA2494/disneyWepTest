@@ -1,4 +1,4 @@
-# Disney web Apo
+# Disney web App
 
 Is a test project for an application job as a frontend developer 
 
