@@ -1,0 +1,63 @@
+@import '../themes/variables.scss';
+
+.login {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+ 
+  &_image{
+   width: 20%;
+   height: 30%;
+  }
+
+  &_title{
+    font-size: 12pt;
+    color: $secondary;
+    padding: 19px 0;
+  }
+
+  &_form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    &--input{
+      display:flex;
+      flex-direction: column;
+      color: $secondary;
+      font-size: 12pt;
+
+      label{
+        text-align: left;
+      }
+
+      input{
+        border-radius: 8px;
+        border: 1px solid $secondary;
+        height: 40px;
+        width: 300px;
+        padding: 10px;
+
+      }
+      span{
+        text-align: left;
+        font-size: 12pt;
+        color: red;
+      }
+    }
+
+    &--button{
+
+      button{
+      border-radius: 8px;
+      border: 1px solid $primary;
+      background-color: $primary;
+      padding: 8px;
+      width: 60%;
+      color: $secondary;
+      }
+    }
+  }
+}

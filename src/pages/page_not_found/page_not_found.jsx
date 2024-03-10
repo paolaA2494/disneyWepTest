@@ -13,7 +13,7 @@ function PageNotFound() {
       </div>
       <div className="page-not-found__main">
         <h1>Pagina no encontrada, Error 404</h1>
-        <Link to="/"><button className="page-not-found__main--button"><strong>Home</strong></button></Link>
+        <Link to="/home"><button className="page-not-found__main--button"><strong>Home</strong></button></Link>
       </div>
     </div>
   );

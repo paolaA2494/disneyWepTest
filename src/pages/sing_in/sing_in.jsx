@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-//import axios from "axios";
-import logo from "../../assets/images/logo.png";
+import '../../styles/sing_in.scss';
+import Login from '../../components/login/login'
 
 class SingIn extends Component {
   constructor(props) {
@@ -16,23 +16,13 @@ class SingIn extends Component {
 
   render() {
     return (
-      <div className="product">
-
-        
-        <div className="search">
-          <div className="search-content">
-            <div className="search-content__logo">
-              <img src={logo} alt="logo" />
-            </div>
-            <div className="search-content__searhbar">
-             
-              <button className="search-content__searhbar--icon">
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="routerIndicator">
-        </div>
+      <div className="sing-in">
+      <div className="sing-in_content1">
+        <h1 className="sing-in_content1--title">El mejor entretenimiento ¡Descúbrelo!</h1>
+      </div>
+      <div className="sing-in_content2">
+        <Login />
+      </div>
       </div>
     );
   }

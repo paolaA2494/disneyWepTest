@@ -1,0 +1,39 @@
+@import '../themes/variables.scss';
+
+.sing-in{
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  gap: 10px;
+  flex-direction: row;
+
+
+  &_content1{
+    display: flex;
+    background-color: $third;
+    margin: 0;
+    height: inherit;
+    padding: 0 30px ;
+    width: 30%;
+    align-items: center;
+
+    &--title{
+     color: $white;
+     text-align: center;
+    }
+
+  }
+
+  &_content2{
+    display: flex;
+    margin: 0;
+    height: inherit;
+    padding: 0 30px;
+    width: 70%;
+    align-items: center;
+
+
+  }
+
+}
