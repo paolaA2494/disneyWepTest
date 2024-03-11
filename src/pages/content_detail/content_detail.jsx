@@ -32,7 +32,7 @@ useEffect(() => {
       <h1>{data.title}</h1>
       <div className="content-detail__main">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/GBexfwe-9j0?si=6T6OyudtBIDJm1qQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <h5>Descripcion</h5>
+      <h5>Descripción</h5>
       <p>{data.overview}</p>
       <h5>Fecha de lanzamiento</h5>
       <p>{data.release_date}</p>
