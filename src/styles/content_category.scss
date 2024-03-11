@@ -1,0 +1,25 @@
+@import '../themes/variables.scss';
+
+
+.content-category{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+
+
+    h1{
+        font-size: 18pt;
+        color: $lightGray;
+    }
+
+    &__main{
+        margin: 20px;
+
+
+    }
+
+    
+  
+  }

@@ -13,5 +13,5 @@ to donwload and update all dependencies, then in the project directory, you can 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For use the sevice for list movies it's important to know that I'm use [https://www.themoviedb.org], and use the user palolah, with password: 2494 for obtain the token
+

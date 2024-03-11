@@ -1,0 +1,30 @@
+@import '../themes/variables.scss';
+
+  
+  .about-us {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+
+    &__main{
+
+        margin: 20px 0;
+    
+
+        h1{
+          font-size: 18pt;
+          color: $lightGray;
+      }
+
+      p{
+        font-size: 12pt;
+        color: $lightGray;
+    }
+  
+    }
+  
+  }
